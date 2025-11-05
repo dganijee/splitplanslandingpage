@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd pocket-ts && npm install && npm run build",
+  "outputDirectory": "pocket-ts/.next",
+  "installCommand": "cd pocket-ts && npm install",
+  "framework": "nextjs",
+  "rootDirectory": "pocket-ts"
+}
+
