@@ -100,8 +100,7 @@ export function SplashScreen() {
             transition={{ duration: 0.5, ease: 'easeOut' }}
           >
             <motion.div
-              className="overflow-hidden"
-              style={{ height: '10rem' }}
+              className="overflow-hidden h-20 sm:h-28 md:h-32"
               animate={{
                 scale: [1, 1.15, 1],
                 opacity: [0.9, 1, 0.9],
