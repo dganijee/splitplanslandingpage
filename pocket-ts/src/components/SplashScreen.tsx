@@ -100,7 +100,6 @@ export function SplashScreen() {
             transition={{ duration: 0.5, ease: 'easeOut' }}
           >
             <motion.div
-              className="overflow-hidden h-20 sm:h-28 md:h-32"
               animate={{
                 scale: [1, 1.15, 1],
                 opacity: [0.9, 1, 0.9],
@@ -115,7 +114,6 @@ export function SplashScreen() {
                 src="/images/splitplans-logo.png"
                 alt="SplitPlans"
                 className="h-40 w-auto sm:h-56 md:h-64 drop-shadow-2xl"
-                style={{ display: 'block', marginTop: 0 }}
               />
             </motion.div>
           </motion.div>
