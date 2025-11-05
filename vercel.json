@@ -1,6 +1,6 @@
 {
-  "buildCommand": "test -d pocket-ts && (cd pocket-ts && npm install && npm run build) || (npm install && npm run build)",
-  "installCommand": "test -d pocket-ts && (cd pocket-ts && npm install) || npm install",
+  "buildCommand": "npm install && npm run build",
+  "installCommand": "npm install",
   "framework": "nextjs"
 }
 
