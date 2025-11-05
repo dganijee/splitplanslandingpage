@@ -22,13 +22,15 @@ export function Footer() {
         <div className="flex flex-col items-start justify-between gap-y-12 pt-16 pb-6 lg:flex-row lg:items-center lg:py-16">
           <div>
             <div className="flex items-center text-gray-900">
-              <img
-                src="/images/splitplans-logo.png"
-                alt="SplitPlans"
-                className="h-10 w-auto flex-none"
-              />
+              <div className="overflow-hidden" style={{ height: '2.5rem' }}>
+                <img
+                  src="/images/splitplans-logo.png"
+                  alt="SplitPlans"
+                  className="h-10 w-auto flex-none"
+                  style={{ display: 'block', marginTop: 0 }}
+                />
+              </div>
               <div className="ml-4">
-                <p className="text-base font-semibold">SplitPlans</p>
                 <p className="mt-1 text-sm">Effortless Event Planning & Cost Splitting</p>
               </div>
             </div>
