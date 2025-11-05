@@ -50,14 +50,14 @@ export function Footer() {
                   <li><a href="/login" className="hover:text-gray-900">Login</a></li>
                   <li><a href="/register" className="hover:text-gray-900">Sign Up</a></li>
                   <li><a href="#" className="hover:text-gray-900">Forgot Password</a></li>
-                  <li><a href="/#pricing" className="hover:text-gray-900">SplitPlans Pro</a></li>
+                  <li><Link href="/#pricing" className="hover:text-gray-900">SplitPlans Pro</Link></li>
                 </ul>
               </div>
               <div>
                 <h3 className="text-sm font-semibold text-gray-900">More</h3>
                 <ul className="mt-2 space-y-2 text-sm text-gray-600">
                   <li><a href="#" className="hover:text-gray-900">Contact Us</a></li>
-                  <li><a href="/#faqs" className="hover:text-gray-900">FAQ</a></li>
+                  <li><Link href="/#faqs" className="hover:text-gray-900">FAQ</Link></li>
                   <li><a href="#" className="hover:text-gray-900">Terms of Service</a></li>
                   <li><a href="#" className="hover:text-gray-900">Privacy Policy</a></li>
                 </ul>
