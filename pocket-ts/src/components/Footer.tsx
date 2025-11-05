@@ -2,8 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { Container } from '@/components/Container'
-import qrCode from '@/images/qr-code.svg'
-import splitplansLogo from '@/images/splitplans-logo.svg'
 
 function QrCodeBorder(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -25,10 +23,12 @@ export function Footer() {
           <div>
             <div className="flex items-center text-gray-900">
               <Image
-                src={splitplansLogo}
+                src="/images/splitplans-logo.svg"
                 alt="SplitPlans"
                 className="h-10 w-auto flex-none"
                 unoptimized
+                width={200}
+                height={40}
               />
               <div className="ml-4">
                 <p className="text-base font-semibold">SplitPlans</p>
@@ -67,7 +67,7 @@ export function Footer() {
           <div className="group relative -mx-4 flex items-center self-stretch p-4 transition-colors hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
             <div className="relative flex h-24 w-24 flex-none items-center justify-center">
               <QrCodeBorder className="absolute inset-0 h-full w-full stroke-gray-300 transition-colors group-hover:stroke-yellow-500" />
-              <Image src={qrCode} alt="" unoptimized />
+              <Image src="/images/qr-code.svg" alt="" unoptimized width={96} height={96} />
             </div>
             <div className="ml-8 lg:w-64">
               <p className="text-base font-semibold text-gray-900">

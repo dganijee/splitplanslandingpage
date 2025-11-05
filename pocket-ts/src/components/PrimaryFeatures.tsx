@@ -17,7 +17,6 @@ import { AppScreen } from '@/components/AppScreen'
 import { CircleBackground } from '@/components/CircleBackground'
 import { Container } from '@/components/Container'
 import { PhoneFrame } from '@/components/PhoneFrame'
-import splitplansLogo from '@/images/splitplans-logo.svg'
 
 const MotionAppScreenHeader = motion(AppScreen.Header)
 const MotionAppScreenBody = motion(AppScreen.Body)
@@ -189,7 +188,7 @@ function InviteScreen(props: ScreenProps) {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src={splitplansLogo}
+              src="/images/splitplans-logo.svg"
               alt="SplitPlans"
               className="h-12 w-auto"
               unoptimized
@@ -264,7 +263,7 @@ function StocksScreen(props: ScreenProps) {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src={splitplansLogo}
+              src="/images/splitplans-logo.svg"
               alt="SplitPlans"
               className="h-12 w-auto"
               unoptimized
@@ -337,7 +336,7 @@ function InvestScreen(props: ScreenProps) {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src={splitplansLogo}
+              src="/images/splitplans-logo.svg"
               alt="SplitPlans"
               className="h-12 w-auto"
               unoptimized

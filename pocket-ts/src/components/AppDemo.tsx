@@ -61,7 +61,7 @@ export function AppDemo() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src={splitplansLogo}
+              src="/images/splitplans-logo.svg"
               alt="SplitPlans"
               className="h-12 w-auto"
               unoptimized

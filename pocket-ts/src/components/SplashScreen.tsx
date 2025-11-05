@@ -4,8 +4,6 @@ import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 
-import splitplansLogo from '@/images/splitplans-logo.svg'
-
 export function SplashScreen() {
   const [isVisible, setIsVisible] = useState(true)
   const [isMounted, setIsMounted] = useState(false)
@@ -114,11 +112,13 @@ export function SplashScreen() {
               }}
             >
               <Image
-                src={splitplansLogo}
+                src="/images/splitplans-logo.svg"
                 alt="SplitPlans"
                 className="h-40 w-auto sm:h-56 md:h-64 drop-shadow-2xl"
                 priority
                 unoptimized
+                width={500}
+                height={200}
               />
             </motion.div>
           </motion.div>

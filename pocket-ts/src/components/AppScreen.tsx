@@ -2,16 +2,16 @@ import { forwardRef } from 'react'
 import Image from 'next/image'
 import clsx from 'clsx'
 
-import splitplansLogo from '@/images/splitplans-logo.svg'
-
 function Logo(props: React.ComponentPropsWithoutRef<'div'>) {
   return (
     <div {...props}>
       <Image
-        src={splitplansLogo}
+        src="/images/splitplans-logo.svg"
         alt="SplitPlans"
         className="h-6 w-auto flex-none"
         unoptimized
+        width={120}
+        height={24}
       />
     </div>
   )

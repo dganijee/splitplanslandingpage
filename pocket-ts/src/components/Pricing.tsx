@@ -7,7 +7,6 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import splitplansLogo from '@/images/splitplans-logo.svg'
 
 const plans = [
   {
@@ -112,7 +111,7 @@ function Plan({
         )}
       >
         <Image
-          src={splitplansLogo}
+          src="/images/splitplans-logo.svg"
           alt="SplitPlans"
           className="h-6 w-auto flex-none"
           unoptimized
