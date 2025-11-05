@@ -188,8 +188,10 @@ function InviteScreen(props: ScreenProps) {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/images/splitplans-logo.svg"
+              src="/images/splitplans-logo.png"
               alt="SplitPlans"
+              width={48}
+              height={48}
               className="h-12 w-auto"
               unoptimized
             />
@@ -263,8 +265,10 @@ function StocksScreen(props: ScreenProps) {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/images/splitplans-logo.svg"
+              src="/images/splitplans-logo.png"
               alt="SplitPlans"
+              width={48}
+              height={48}
               className="h-12 w-auto"
               unoptimized
             />
@@ -336,8 +340,10 @@ function InvestScreen(props: ScreenProps) {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/images/splitplans-logo.svg"
+              src="/images/splitplans-logo.png"
               alt="SplitPlans"
+              width={48}
+              height={48}
               className="h-12 w-auto"
               unoptimized
             />

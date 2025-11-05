@@ -111,8 +111,10 @@ function Plan({
         )}
       >
         <Image
-          src="/images/splitplans-logo.svg"
+          src="/images/splitplans-logo.png"
           alt="SplitPlans"
+          width={24}
+          height={24}
           className="h-6 w-auto flex-none"
           unoptimized
         />

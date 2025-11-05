@@ -111,7 +111,7 @@ export function SplashScreen() {
               }}
             >
               <img
-                src="/images/splitplans-logo.svg"
+                src="/images/splitplans-logo.png"
                 alt="SplitPlans"
                 className="h-40 w-auto sm:h-56 md:h-64 drop-shadow-2xl"
               />

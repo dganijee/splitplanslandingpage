@@ -3,7 +3,6 @@
 import Image from 'next/image'
 
 import { AppScreen } from '@/components/AppScreen'
-import splitplansLogo from '@/images/splitplans-logo.svg'
 
 function PlusIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -61,8 +60,10 @@ export function AppDemo() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/images/splitplans-logo.svg"
+              src="/images/splitplans-logo.png"
               alt="SplitPlans"
+              width={48}
+              height={48}
               className="h-12 w-auto"
               unoptimized
             />

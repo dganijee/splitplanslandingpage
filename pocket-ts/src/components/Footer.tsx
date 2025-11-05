@@ -23,7 +23,7 @@ export function Footer() {
           <div>
             <div className="flex items-center text-gray-900">
               <img
-                src="/images/splitplans-logo.svg"
+                src="/images/splitplans-logo.png"
                 alt="SplitPlans"
                 className="h-10 w-auto flex-none"
               />

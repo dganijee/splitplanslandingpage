@@ -5,7 +5,7 @@ function Logo(props: React.ComponentPropsWithoutRef<'div'>) {
   return (
     <div {...props}>
       <img
-        src="/images/splitplans-logo.svg"
+        src="/images/splitplans-logo.png"
         alt="SplitPlans"
         className="h-6 w-auto flex-none"
       />
