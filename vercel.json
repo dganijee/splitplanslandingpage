@@ -1,7 +1,6 @@
 {
-  "buildCommand": "npm install && npm run build",
-  "installCommand": "npm install",
-  "framework": "nextjs",
-  "rootDirectory": "pocket-ts"
+  "buildCommand": "cd pocket-ts && npm install && npm run build",
+  "installCommand": "cd pocket-ts && npm install",
+  "framework": "nextjs"
 }
 
