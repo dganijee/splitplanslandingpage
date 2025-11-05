@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import clsx from 'clsx'
 
 function PlaceholderFrame(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -28,14 +27,10 @@ export function PhoneFrame({
         {children}
       </div>
       <PlaceholderFrame className="pointer-events-none absolute inset-0 h-full w-full fill-gray-100" />
-      <Image
+      <img
         src="/images/phone-frame.svg"
         alt=""
-        className="pointer-events-none absolute inset-0 h-full w-full"
-        unoptimized
-        priority={priority}
-        width={366}
-        height={729}
+        className="pointer-events-none absolute inset-0 h-full w-full object-contain"
       />
     </div>
   )

@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export function SplashScreen() {
@@ -111,14 +110,10 @@ export function SplashScreen() {
                 ease: 'easeInOut',
               }}
             >
-              <Image
+              <img
                 src="/images/splitplans-logo.svg"
                 alt="SplitPlans"
                 className="h-40 w-auto sm:h-56 md:h-64 drop-shadow-2xl"
-                priority
-                unoptimized
-                width={500}
-                height={200}
               />
             </motion.div>
           </motion.div>
